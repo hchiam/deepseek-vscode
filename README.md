@@ -4,6 +4,8 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 Based on this Beyond Fireship video: <https://www.youtube.com/watch?v=clJCDHml2cA>
 
+Actually getting it to work on my machine wasn't as straightforward as copying the code. See notes below.
+
 ## usage
 
 ```sh
