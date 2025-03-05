@@ -69,8 +69,11 @@ function getWebViewContent(): string {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
   body{font-family:sans-serif;margin:1rem;}
-  #prompt{width:100%;box-sizing:border-box;}
-  #response{border:1px solid #ccc;margin-top:1rem;padding:0.5rem;min-height:3rem;}
+  #prompt{width:100%;box-sizing:border-box;padding:0.5rem;border-radius:0.25rem;}
+  #askBtn{padding:1rem;border-radius:0.5rem;cursor:pointer;background:lightgrey;color:black;}
+  #askBtn:focus,#askBtn:hover{background:white;color:black;}
+  #response{border:1px solid #ccc;margin-top:1rem;padding:0.5rem;min-height:3rem;border-radius:0.25rem;}
+  #response.thinking{background:black;color:white;}
   </style>
 </head>
 <body>
@@ -92,6 +95,7 @@ function getWebViewContent(): string {
       const {command,text} = event.data;
       if (command === 'chatResponse') {
         document.getElementById('response').innerText = text;
+        document.getElementById('response').classList.add('thinking');
       }
     });
   </script>
