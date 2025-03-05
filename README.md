@@ -47,3 +47,5 @@ tsc
     1. Ctrl+Shift+P "Developer: Install Extension from Location..."
     2. select the deepseek-vscode folder
     3. Now Ctrl+Shift+P "Hello deepseek-vscode" is available in my VS Code!
+
+- TODO: run other non-deepseek models?
