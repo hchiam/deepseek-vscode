@@ -13,7 +13,7 @@ export function activate(context: vscode.ExtensionContext) {
   const disposable = vscode.commands.registerCommand(
     "deepseek-vscode.helloWorld",
     () => {
-      vscode.window.showInformationMessage("Hello World from deepseek-vscode!");
+      vscode.window.showInformationMessage("Hello deepseek-vscode!");
 
       const panel = vscode.window.createWebviewPanel(
         "deepseek-vscode",

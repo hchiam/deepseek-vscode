@@ -9,8 +9,8 @@ Notes:
 - initialized using `npx --package yo --package generator-code -- yo code` and setting a bunch of things to "deepseek-vscode" and using the `yarn` option
 
 - <https://code.visualstudio.com/api/get-started/your-first-extension>
-  - This example uses the default Ctrl+Shift+P command "Hello World"
-  - I had to run `tsc` within this project so that it generates `/out/extension.js`, otherwise I either couldn't get the "Hello World" command to run or it got an error.
+  - This example uses the Ctrl+Shift+P command "Hello deepseek-vscode"
+  - I had to run `tsc` within this project so that it generates `/out/extension.js`, otherwise I either couldn't get the "Hello deepseek-vscode" command to run or it got an error.
   - you might want to instead run `tsc --watch` so it automatically updates when you make updates
 
 - <https://ollama.com/library/deepseek-r1:1.5b>
@@ -26,3 +26,8 @@ Notes:
 
 - TODO: figure out how to _install_ it _locally_ so I don't have to run it in debug.
   - maybe can find inspiration from an older project <https://github.com/hchiam/custom-vscode-linter>
+  - UPDATE: actually this works for me:
+    1. Ctrl+Shift+P "Developer: Install Extension from Location..."
+    2. select the deepseek-vscode folder
+    3. Now Ctrl+Shift+P "Hello deepseek-vscode" is available in my VS Code!
+  

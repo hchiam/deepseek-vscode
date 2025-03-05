@@ -15,7 +15,7 @@
     "commands": [
       {
         "command": "deepseek-vscode.helloWorld",
-        "title": "Hello World"
+        "title": "Hello deepseek-vscode"
       }
     ]
   },
