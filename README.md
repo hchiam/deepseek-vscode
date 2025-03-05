@@ -4,7 +4,24 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 Based on this Beyond Fireship video: <https://www.youtube.com/watch?v=clJCDHml2cA>
 
-Notes:
+## usage
+
+```sh
+# SETUP:
+
+cd deepseek-vscode
+yarn
+tsc
+# Ctrl+Shift+P "Developer: Install Extension from Location..."
+# select deepseek-vscode folder
+
+# REGULAR USE:
+
+# run Ollama app
+# Ctrl+Shift+P "Hello deepseek-vscode"
+```
+
+## notes
 
 - initialized using `npx --package yo --package generator-code -- yo code` and setting a bunch of things to "deepseek-vscode" and using the `yarn` option
 
@@ -30,4 +47,3 @@ Notes:
     1. Ctrl+Shift+P "Developer: Install Extension from Location..."
     2. select the deepseek-vscode folder
     3. Now Ctrl+Shift+P "Hello deepseek-vscode" is available in my VS Code!
-  
