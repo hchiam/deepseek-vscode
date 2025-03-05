@@ -1,5 +1,7 @@
 # deepseek-vscode
 
+Just one of the things I'm learning. <https://github.com/hchiam/learning>
+
 Based on this Beyond Fireship video: <https://www.youtube.com/watch?v=clJCDHml2cA>
 
 Notes:
@@ -21,3 +23,6 @@ Notes:
   - `yarn add ollama`
 
 - using es6-string-html VSCode extension by Tobermory is recommended
+
+- TODO: figure out how to _install_ it _locally_ so I don't have to run it in debug.
+  - maybe can find inspiration from an older project <https://github.com/hchiam/custom-vscode-linter>
