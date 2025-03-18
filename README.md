@@ -1,4 +1,4 @@
-# deepseek-vscode
+# test-deepseek-vscode-extension
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
@@ -15,11 +15,11 @@ Actually getting it to work on my machine wasn't as straightforward as copying t
 ```sh
 # SETUP:
 
-cd deepseek-vscode
+cd test-deepseek-vscode-extension
 yarn
 tsc
 # Ctrl+Shift+P "Developer: Install Extension from Location..."
-# select deepseek-vscode folder
+# select test-deepseek-vscode-extension folder
 
 # REGULAR USE:
 
@@ -51,7 +51,7 @@ tsc
   - maybe can find inspiration from an older project <https://github.com/hchiam/custom-vscode-linter>
   - UPDATE: actually this works for me:
     1. Ctrl+Shift+P "Developer: Install Extension from Location..."
-    2. select the deepseek-vscode folder
+    2. select the test-deepseek-vscode-extension folder
     3. Now Ctrl+Shift+P "Hello deepseek-vscode" is available in my VS Code!
 
 - TODO: run other non-deepseek models?
