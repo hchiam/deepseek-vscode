@@ -6,6 +6,10 @@ Based on this Beyond Fireship video: <https://www.youtube.com/watch?v=clJCDHml2c
 
 Actually getting it to work on my machine wasn't as straightforward as copying the code. See notes below.
 
+<p align="center">
+  <img src="screenshot.png" alt="screenshot">
+</p>
+
 ## usage
 
 ```sh
